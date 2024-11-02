@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Books</title>
+  </head>
+
+  <body>
+    <div class="homepage_btn">
+      <a href="index.html" title="Homepage">
+        <img
+          src="https://cdn-icons-png.freepik.com/256/10081/10081030.png?ga=GA1.1.652720115.1730133052&semt=ais_hybrid"
+          width="30px"
+          height="auto"
+          alt="Home"
+        />
+      </a>
+    </div>
+
+    <div class="top">
+      <h1>Books library</h1>
+    </div>
+
+    <div class="description">
+      <h2>You can search books by title, author or genre.</h2>
+    </div>
+
+    <div class="search_win">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search... (ex. Sanderson, fantasy)"
+        onkeyup="filterItems('itemsTable')"
+      />
+    </div>
+
+    <table id="itemsTable">
+      <tr>
+        <th>Photo</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Description</th>
+        <th>Genres</th>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1651710803i/23437156.jpg"
+            height="130px"
+            alt="Six of Crows"
+          />
+        </td>
+        <td>Six of Crows</td>
+        <td>Leigh Bardugo</td>
+        <td>
+          Ketterdam: a bustling hub of international trade where anything can be
+          had for the right price—and no one knows that better than criminal
+          prodigy Kaz Brekker. Kaz is offered a chance at a deadly heist that
+          could make him rich beyond his wildest dreams. But he can’t pull it
+          off alone...
+        </td>
+        <td>fantasy, fiction, adventure</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1689135481i/60531416.jpg"
+            height="130px"
+            alt="Yumi and the Nightmare Painter"
+          />
+        </td>
+        <td>Yumi and the Nightmare Painter</td>
+        <td>Brandon Sanderson</td>
+        <td>
+          Yumi comes from a land of gardens, meditation, and spirits, while
+          Painter lives in a world of darkness, technology, and nightmares. When
+          their lives suddenly become intertwined in strange ways, can they put
+          aside their differences and work together to uncover the mysteries of
+          their situation and save each other’s communities from certain
+          disaster?
+        </td>
+        <td>fantasy, romance, fiction</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1574535986i/26032825.jpg"
+            height="130px"
+            alt="The Cruel Prince"
+          />
+        </td>
+        <td>The Cruel Prince</td>
+        <td>Holly Black</td>
+        <td>
+          Jude was seven when her parents were murdered and she and her two
+          sisters were stolen away to live in the treacherous High Court of
+          Faerie. Ten years later, Jude wants nothing more than to belong there,
+          despite her mortality. But many of the fey despise humans. Especially
+          Prince Cardan, the youngest and wickedest son of the High King. To win
+          a place at the Court, she must defy him–and face the consequences.
+        </td>
+        <td>fantasy, romance, fiction</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1379621430i/17274667.jpg"
+            height="130px"
+            alt="Metro 2033"
+          />
+        </td>
+        <td>Metro 2033</td>
+        <td>Dmitry Glukhovsky</td>
+        <td>
+          In 2033, humanity teeters on extinction, with cities in radioactive
+          ruins and civilization a distant memory. A few thousand survivors live
+          in the Moscow Metro, forming isolated micro-states driven by survival.
+          VDNKh, a northern station, faces a new and terrifying threat. Artyom,
+          a young man from VDNKh, must reach the legendary Polis for help,
+          carrying the fate of his station—and perhaps all humanity—in his hands
+        </td>
+        <td>science fiction, horror, dystopia, fantasy</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1482181567i/33369264.jpg"
+            height="130px"
+            alt="Blackout"
+          />
+        </td>
+        <td>Blackout</td>
+        <td>Marc Elsberg</td>
+        <td>
+          One night, the lights go out across Europe. The electrical grids
+          collapse on an epic scale and unleash a devastating chaos in the total
+          blackout. And unbeknownst to the general population, nuclear reactors
+          are starting to overheat… When a former hacker and activist who knows
+          a thing or two about infiltrating networks starts investigating the
+          cause of this disaster, he soon becomes a prime suspect. As threats to
+          the United States start to emerge, he goes on the run with a young
+          American reporter based in Paris, racing desperately to turn the
+          lights back on. Because if they stay off, tomorrow may be too late.
+        </td>
+        <td>thriller, fiction, science fiction, dystopia</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1359853842i/16101128.jpg"
+            height="130px"
+            alt="The 5th Wave"
+          />
+        </td>
+        <td>The 5th Wave</td>
+        <td>Rick Yancey</td>
+        <td>
+          Now, it's the dawn of the 5th wave, and on a lonely stretch of
+          highway, Cassie runs from Them. The beings who only look human, who
+          roam the countryside killing anyone they see. Who have scattered
+          Earth's last survivors. To stay alone is to stay alive, Cassie
+          believes, until she meets Evan Walker. Beguiling and mysterious, Evan
+          Walker may be Cassie's only hope for rescuing her brother—or even
+          saving herself. But Cassie must choose: between trust and despair,
+          between defiance and surrender, between life and death. To give up or
+          to get up.
+        </td>
+        <td>science fiction, dystopia, fantasy, romance</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1728296393i/55883882.jpg"
+            height="130px"
+            alt="Monstress, Volume 1: Awakening"
+          />
+        </td>
+        <td>Monstress, Volume 1: Awakening</td>
+        <td>Marjorie M. Liu,</td>
+        <td>
+          Set in an alternate matriarchal 1900's Asia, in a richly imagined
+          world of art deco-inflected steam punk, MONSTRESS tells the story of a
+          teenage girl who is struggling to survive the trauma of war, and who
+          shares a mysterious psychic link with a monster of tremendous power, a
+          connection that will transform them both and make them the target of
+          both human and otherworldly powers.
+        </td>
+        <td>comics, fantasy, horror, fiction, steampunk</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1612450626i/56269205.jpg"
+            height="130px"
+            alt="Empire of the Vampire"
+          />
+        </td>
+        <td>Empire of the Vampire</td>
+        <td>Jay Kristoff</td>
+        <td>
+          For twenty-seven years, there has been no sunrise. Vampires have
+          conquered humanity, leaving only a few sparks of hope. Gabriel de
+          León, the last of the holy silversaints, once fought to protect the
+          realm but now sits imprisoned by the monsters he hunted. Forced to
+          tell his tale, Gabriel recounts battles, lost faith, forbidden love,
+          and his quest for humanity’s final hope: the Holy Grail.
+        </td>
+        <td>fantasy, horror, fiction, paralormal</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1594310765i/26836910.jpg"
+            height="130px"
+            alt="The Diabolic"
+          />
+        </td>
+        <td>The Diabolic</td>
+        <td>S.J. Kincaid</td>
+        <td>
+          Nemesis is a Diabolic, a humanoid teenager created to protect a
+          galactic senator’s daughter, Sidonia. The two have grown up side by
+          side, but are in no way sisters. Nemesis is expected to give her life
+          for Sidonia, and she would do so gladly. She would also take as many
+          lives as necessary to keep Sidonia safe.
+        </td>
+        <td>science fiction, fantasy, dystopia, romance</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1516127989i/34728667.jpg"
+            height="130px"
+            alt="Children of Blood and Bone"
+          />
+        </td>
+        <td>Children of Blood and Bone</td>
+        <td>Tomi Adeyemi</td>
+        <td>
+          Zélie Adebola remembers when the soil of Orïsha hummed with magic.
+          Burners ignited flames, Tiders beckoned waves, and Zélie’s Reaper
+          mother summoned forth souls. But everything changed the night magic
+          disappeared. Under the orders of a ruthless king, maji were killed,
+          leaving Zélie without a mother and her people without hope. Now Zélie
+          has one chance to bring back magic and strike against the monarchy.
+          With the help of a rogue princess, Zélie must outwit and outrun the
+          crown prince, who is hell-bent on eradicating magic for good.
+        </td>
+        <td>fantasy, fiction, romance, adventure</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1589998653i/6043781.jpg"
+            height="130px"
+            alt="Blood of Elves. The Witcher."
+          />
+        </td>
+        <td>Blood of Elves. The Witcher.</td>
+        <td>Andrzej Sapkowski</td>
+        <td>
+          For over a century, humans, dwarves, gnomes, and elves have lived
+          together in relative peace. But times have changed, the uneasy peace
+          is over, and now the races are fighting once again. The only good elf,
+          it seems, is a dead elf. Geralt of Rivia, the cunning assassin known
+          as The Witcher, has been waiting for the birth of a prophesied child.
+          This child has the power to change the world - for good, or for evil.
+        </td>
+        <td>fantasy, fiction, adventure</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1460309528i/44652.jpg"
+            height="130px"
+            alt="Fablehaven"
+          />
+        </td>
+        <td>Fablehaven</td>
+        <td>Brandon Mull</td>
+        <td>
+          Trespassers will be turned to stone For centuries, mystical creatures
+          of all description were gathered to a hidden refuge called Fablehaven
+          to prevent their extinction. The sanctuary is one of the last
+          strongholds of true magic. Enchanting? Absolutely. Exciting? You bet.
+          Safe? Well, actually, quite the opposite . . .
+        </td>
+        <td>fantasy, fiction, adventure</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1433360029i/22545983.jpg"
+            height="130px"
+            alt="JoJo's Bizarre Adventure: Part 1—Phantom Blood, Vol. 1"
+          />
+        </td>
+        <td>JoJo's Bizarre Adventure: Part 1—Phantom Blood, Vol. 1</td>
+        <td>Hirohiko Araki</td>
+        <td>
+          Young Jonathan Joestar’s life is forever changed when he meets his new
+          adopted brother, Dio. For some reason, Dio has a smoldering grudge
+          against him and derives pleasure from seeing him suffer. But every man
+          has his limits, as Dio finds out. This is the beginning of a long and
+          hateful relationship!
+        </td>
+        <td>manga, fantasy, comic, fiction, horror, adventure</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1603387427i/53457092.jpg"
+            height="130px"
+            alt="Six Crimson Cranes"
+          />
+        </td>
+        <td>Six Crimson Cranes</td>
+        <td>Elizabeth Lim</td>
+        <td>
+          Shiori'anma, the princess of Kiata, has forbidden magic. On her
+          betrothal day, she accidentally reveals her powers, prompting her
+          stepmother, Raikama, to banish her and turn her brothers into cranes.
+          Raikama warns that speaking of the curse will lead to their deaths.
+          Alone, Shiori searches for her brothers and uncovers a conspiracy to
+          seize the throne. To save them, she must trust a paper bird, a
+          shapeshifting dragon, and the boy she wanted to avoid marrying, all
+          while embracing the magic she was taught to reject.
+        </td>
+        <td>fantasy, romance, fiction, mythology</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1479664293i/11836538.jpg"
+            height="130px"
+            alt="Croak"
+          />
+        </td>
+        <td>Croak</td>
+        <td>Gina Damico</td>
+        <td>
+          Fed up with her wild behavior, sixteen-year-old Lex is sent to live
+          with her Uncle Mort in upstate New York for the summer. However, Uncle
+          Mort is not just a farmer; he’s a Grim Reaper who introduces Lex to
+          the family business. She quickly adapts to the strange world of Croak,
+          a town filled with reapers delivering souls to the afterlife. Yet,
+          Lex's desire for justice—perhaps vengeance—emerges whenever she
+          encounters a murder victim, driving her to want to stop the attackers.
+          As she grapples with her new abilities, Lex must decide whether to
+          embrace her role in Croak or go rogue with her reaper skills.
+        </td>
+        <td>
+          fantasy, paranormal, supernatural, mystery, humor, horror, romance
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1344174064i/10913887.jpg"
+            height="130px"
+            alt="The Hunt"
+          />
+        </td>
+        <td>The Hunt</td>
+        <td>Andrew Fukuda</td>
+        <td>
+          Don’t sweat. Don’t laugh. Don’t draw attention to yourself. And most
+          of all, whatever you do, do not fall in love with one of them. Gene is
+          different from everyone else around him. He can’t run with lightning
+          speed, sunlight doesn’t hurt him, and he doesn’t have an unquenchable
+          lust for blood. Gene is a human, and he knows the rules. Keep the
+          truth a secret. It’s the only way to stay alive in a world of night -
+          a world where humans are considered a delicacy and hunted for their
+          blood.
+        </td>
+        <td>
+          fantasy, dystopia, paranormal, horror, fiction, horror, supernatural
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1381497933i/298567.jpg"
+            height="130px"
+            alt="Revenge of the Witch"
+          />
+        </td>
+        <td>Revenge of the Witch</td>
+        <td>Joseph Delaney</td>
+        <td>
+          Thomas Ward is the seventh son of a seventh son and has been
+          apprenticed to the local Spook. The job is hard, the Spook is distant
+          and many apprentices have failed before Thomas. Somehow Thomas must
+          learn how to exorcise ghosts, contain witches and bind boggarts. But
+          when he is tricked into freeing Mother Malkin, the most evil witch in
+          the County, the horror begins..
+        </td>
+        <td>fantasy, horror, fiction, paranormal, supernatural</td>
+      </tr>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+body {
+  background: #b7d6b7;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.top {
+  background: #93c68b;
+  border: 3px solid #436345;
+  text-align: center;
+}
+
+.homepage_btn {
+  margin: 5px 5px;
+  text-align: right;
+}
+
+.description {
+  margin: 20px 0px;
+  text-align: center;
+}
+
+h5 {
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.search_win {
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.search_win input {
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 15px;
+  border: 1px solid #436345;
+  width: 30%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  text-align: center;
+}
+
+.category a {
+  text-decoration: none;
+  color: black;
+}
+
+.category img {
+  border-radius: 8px;
+}
+
+.category:hover {
+  transform: scale(1.05);
+}
+/* sprawia ze powieksza sie okienko po najechaniu kategorii  */
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* Zmniejszenie odstepow miedzy komorkami */
+}
+
+th,
+td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}

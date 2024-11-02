@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Games</title>
+  </head>
+
+  <body>
+    <div class="homepage_btn">
+      <a href="index.html" title="Homepage">
+        <img
+          src="https://cdn-icons-png.freepik.com/256/10081/10081030.png?ga=GA1.1.652720115.1730133052&semt=ais_hybrid"
+          width="30px"
+          height="auto"
+          alt="Home"
+        />
+      </a>
+    </div>
+
+    <div class="top">
+      <h1>Games library</h1>
+    </div>
+
+    <div class="description">
+      <h2>You can search games by title, platform or category.</h2>
+    </div>
+
+    <div class="search_win">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search... (ex. multiplayer, xbox)"
+        onkeyup="filterItems('itemsTable')"
+      />
+    </div>
+
+    <table id="itemsTable">
+      <tr>
+        <th>Photo</th>
+        <th>Title</th>
+        <th>Platforms</th>
+        <th>Categories</th>
+      </tr>
+      <tr>
+        <td>
+          <img
+            src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1729703045"
+            width="150px"
+            alt="CS2"
+          />
+        </td>
+        <td>Counter Strike 2</td>
+        <td>PC</td>
+        <td>multiplayer, FPS, strategy</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2357570/header.jpg?t=1729891956"
+            width="150px"
+            alt="Overwatch 2"
+          />
+        </td>
+        <td>Overwatch 2</td>
+        <td>PC, Xbox, PlayStation, Nintendo Switch</td>
+        <td>multiplayer, action, FPS</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1720558643"
+            width="150px"
+            alt="RD2"
+          />
+        </td>
+
+        <td>Red Dead Redemption 2</td>
+        <td>PC, Xbox, PlayStation</td>
+        <td>singleplayer, action, adventure</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/368360/header.jpg?t=1727863211"
+            width="150px"
+            alt="60 Seconds!"
+          />
+        </td>
+
+        <td>60 Seconds!</td>
+        <td>PC, Xbox, PlayStation, Nintendo Switch, iOS, Android</td>
+        <td>singleplayer, adventure, simulation, strategy,</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/537110/header.jpg?t=1674468422"
+            width="150px"
+            alt="Angels of Death"
+          />
+        </td>
+
+        <td>Angels of Death</td>
+        <td>PC, Nintendo Switch</td>
+        <td>singleplayer, adventure, RPG, horror, anime, puzzle</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2368470/header.jpg?t=1729025828"
+            width="150px"
+            alt="An Arcade Full of Cats"
+          />
+        </td>
+
+        <td>An Arcade Full of Cats</td>
+        <td>PC, PlayStation</td>
+        <td>singleplayer, puzzle</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/250900/header.jpg?t=1722458438"
+            width="150px"
+            alt="The Binding of Isaac: Rebirth"
+          />
+        </td>
+
+        <td>The Binding of Isaac: Rebirth</td>
+        <td>PC, Xbox, PlayStation</td>
+        <td>singleplayer, action, RPG, TPS</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/582660/header.jpg?t=1728945637"
+            width="150px"
+            alt="Black Desert"
+          />
+        </td>
+
+        <td>Black Desert</td>
+        <td>PC, Xbox, PlayStation</td>
+        <td>
+          singleplayer, multiplayer, action, adventure, MMO, RPG, strategy
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/504230/header.jpg?t=1714089525"
+            width="150px"
+            alt="Celeste"
+          />
+        </td>
+
+        <td>Celeste</td>
+        <td>PC</td>
+        <td>singleplayer, action, adventure</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1313140/header_alt_assets_6.jpg?t=1729515117"
+            width="150px"
+            alt="Cult of the Lamb"
+          />
+        </td>
+
+        <td>Cult of the Lamb</td>
+        <td>PC, PlayStation</td>
+        <td>singleplayer, action, adventure, strategy</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1091500/header.jpg?t=1726188854"
+            width="150px"
+            alt="Cyberpunk 2077"
+          />
+        </td>
+
+        <td>Cyberpunk 2077</td>
+        <td>PC, Xbox, PlayStation</td>
+        <td>singleplayer, action, RPG, FPS</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/977950/header.jpg?t=1729488751"
+            width="150px"
+            alt="A Dance of Fire and Ice"
+          />
+        </td>
+
+        <td>A Dance of Fire and Ice</td>
+        <td>PC, Android</td>
+        <td>singleplayer, rhythm, music</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/548430/header_alt_assets_17_polish.jpg?t=1729165302"
+            width="150px"
+            alt="Deep Rock Galactic"
+          />
+        </td>
+
+        <td>Deep Rock Galactic</td>
+        <td>PC, PlayStation</td>
+        <td>singleplayer, multiplayer, action, FPS</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/387290/header.jpg?t=1701967651"
+            width="150px"
+            alt="Ori and the Blind Forest: Definitive Edition"
+          />
+        </td>
+
+        <td>Ori and the Blind Forest: Definitive Edition</td>
+        <td>PC, Xbox</td>
+        <td>singleplayer, action, puzzle</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1726158298"
+            width="150px"
+            alt="Elden Ring"
+          />
+        </td>
+
+        <td>Elden Ring</td>
+        <td>PC, Xbox, PlayStation</td>
+        <td>singleplayer, multiplayer, action, RPG</td>
+      </tr>
+
+      <tr>
+        <td>
+          <img
+            src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/588430/header.jpg?t=1729627142"
+            width="150px"
+            alt="Fallout Shelter"
+          />
+        </td>
+
+        <td>Fallout Shelter</td>
+        <td>PC, Xbox, PlayStation, iOS, Android</td>
+        <td>singleplayer, RPG, simulation, survival</td>
+      </tr>
+    </table>
+
+    <h5>PS: All games above are available on Steam :))</h3>
+    <script src="script.js"></script>
+  </body>
+</html>
