@@ -12,8 +12,8 @@ It offers a range of categories to explore, helping you find inspiration for wha
 
 ## Technologies :wrench:
 #### Project is created with:
-* css, html
-* java 1.8.0_431
+* HTML5, CSS3
+* JavaScript 1.8.0_431
 
 ## Screenshots :desktop_computer:
 <img src="https://github.com/Lesiiaa/Websites/blob/main/try_new_things/photos/p_homepage.png?raw=true" width="1000"/>
