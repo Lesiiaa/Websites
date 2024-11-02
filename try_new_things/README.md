@@ -28,6 +28,6 @@ It offers a range of categories to explore, helping you find inspiration for wha
 * Click on "Code" button and select "Download ZIP"
 * Extract the downloaded ZIP file to your desired location
 
-#### Open project
+#### Open project:
 * In the project files, locate `try_new_things` folder
 * In the `try_new_things` folder, find `index.html` file and open it in your browser
