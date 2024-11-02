@@ -29,5 +29,5 @@ It offers a range of categories to explore, helping you find inspiration for wha
 * Extract the downloaded ZIP file to your desired location
 
 #### Open project:
-* In the project files, locate `try_new_things` folder
-* In the `try_new_things` folder, find `index.html` file and open it in your browser
+* In the project files, locate `new_things` folder
+* In the `new_things` folder, find `index.html` file and open it in your browser
