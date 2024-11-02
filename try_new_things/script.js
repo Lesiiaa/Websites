@@ -11,7 +11,6 @@ function filterItems(tableId) {
 
     // sprawdz czy ktoras komorka zawiera szukany tekst
     for (let j = 0; j < cells.length; j++) {
-      // mozliwosc szukania po danych atrybutach
       if (
         cells[j].textContent.toLowerCase().indexOf(filter) > -1 ||
         (cells[j].dataset.categories &&
