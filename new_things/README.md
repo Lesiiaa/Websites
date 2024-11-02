@@ -1,4 +1,4 @@
-<img src="https://github.com/Lesiiaa/Websites/blob/main/try_new_things/photos/logo.png?raw=true"/>
+<img src="https://github.com/Lesiiaa/Websites/blob/main/new_things/photos/logo.png?raw=true"/>
 
 ## Table of Contents :scroll:
 * [Project overview](#project-overview-rocket)
@@ -8,7 +8,7 @@
 
 ## Project overview :rocket:
 The New Things website was developed as part of the "Create Your First Website" school project. 
-It offers a range of categories to explore, helping you find inspiration for what to do today. All suggestions are handpicked favorites—enjoy exploring!
+It offers a range of categories to explore, helping you find inspiration for what to do today. All suggestions are handpicked favorites - enjoy exploring!
 
 ## Technologies :wrench:
 #### Project is created with:
@@ -16,8 +16,8 @@ It offers a range of categories to explore, helping you find inspiration for wha
 * JavaScript 1.8.0_431
 
 ## Screenshots :desktop_computer:
-<img src="https://github.com/Lesiiaa/Websites/blob/main/try_new_things/photos/p_homepage.png?raw=true" width="1000"/>
-<img src="https://github.com/Lesiiaa/Websites/blob/main/try_new_things/photos/p_games.png?raw=true" width="1000"/>
+<img src="https://github.com/Lesiiaa/Websites/blob/main/new_things/photos/p_homepage.png?raw=true" width="1000"/>
+<img src="https://github.com/Lesiiaa/Websites/blob/main/new_things/photos/p_games.png?raw=true" width="1000"/>
 
 ## Installation :magic_wand:
 #### You have two options:
