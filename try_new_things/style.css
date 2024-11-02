@@ -2,6 +2,7 @@ body {
   background: #b7d6b7;
   margin: auto;
   max-width: 1000px;
+  font-size: 23px;
 }
 
 .top {
@@ -83,4 +84,8 @@ td {
   padding: 8px;
   border: 1px solid #ddd;
   text-align: left;
+}
+
+html {
+  overflow-y: scroll; /*wymusza obecnosc paska do scrollowania, by zapobiec przesuwaniu sie podstrony w lewo*/
 }
