@@ -20,6 +20,14 @@ It offers a range of categories to explore, helping you find inspiration for wha
 <img src="https://github.com/Lesiiaa/Websites/blob/main/try_new_things/photos/p_games.png?raw=true" width="1000"/>
 
 ## Installation :magic_wand:
+#### You have two options:
+1. **Clone repository**
 * git clone https://github.com/Lesiiaa/Websites.git
-* navigate to the try_new_things folder
-* open the index.html file and open it in your web browser
+
+2. **Download the ZIP file:**
+* Click on "Code" button and select "Download ZIP"
+* Extract the downloaded ZIP file to your desired location
+
+#### Open project:
+* In the project files, locate `try_new_things` folder
+* In the `try_new_things` folder, find `index.html` file and open it in your browser
