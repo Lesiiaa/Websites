@@ -1,4 +1,4 @@
-<img src=""/>
+<img src="https://github.com/Lesiiaa/Websites/blob/main/try_new_things/photos/logo.png?raw=true"/>
 
 ## Table of Contents :scroll:
 * [Project overview](#project-overview-rocket)
@@ -16,8 +16,8 @@ It offers a range of categories to explore, helping you find inspiration for wha
 * java 1.8.0_431
 
 ## Screenshots :desktop_computer:
-<img src="" width="500"/>
-<img src="" width="1300"/>
+<img src="https://github.com/Lesiiaa/Websites/blob/main/try_new_things/photos/p_homepage.png?raw=true" width="1000"/>
+<img src="https://github.com/Lesiiaa/Websites/blob/main/try_new_things/photos/p_games.png?raw=true" width="1000"/>
 
 ## Installation :magic_wand:
 * git clone https://github.com/Lesiiaa/Websites.git
