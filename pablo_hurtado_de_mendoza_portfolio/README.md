@@ -43,12 +43,6 @@ _Another section of the portfolio, highlighting the artist's gallery of artworks
 
 ---
 
-## 🌐 Live Demo
-
-Check out the live version of this project [here](https://pablo-hurtado-de-mendoza-portfolio.glitch.me).
-
----
-
 ## 🙏 Acknowledgments
 
 Special thanks to the following tools and resources for their assistance in building this project:
